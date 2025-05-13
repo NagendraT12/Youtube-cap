@@ -1,0 +1,234 @@
+.comment-section {
+  max-width: 4xl;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #212121;
+  color: white;
+}
+
+.comment-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .comment-input-container {
+    flex-direction: row;
+  }
+}
+
+.comment-input {
+  padding: 0.75rem;
+  border: 1px solid #4B5563;
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: #212121;
+  color: white;
+}
+
+.comment-input:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: white;
+}
+
+.comment-submit-btn {
+  padding: 0.75rem;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 0.375rem;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .comment-submit-btn {
+    width: auto;
+  }
+}
+
+.comment-submit-btn:hover {
+  background-color: #dc2626;
+}
+
+.login-prompt {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #9CA3AF;
+}
+
+.login-message {
+  margin: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.login-link {
+  color: #33f733;
+  text-decoration: underline;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment-card {
+  background-color: #212121;
+  border: 1px solid #4B5563;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comment-content {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.comment-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #9CA3AF;
+}
+
+.comment-author {
+  color: white;
+}
+
+.author-name {
+  color: #15ff00;
+  font-weight: bold;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.edit-btn {
+  color: #fffc37;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.edit-btn:hover {
+  color: #e4e146b8;
+}
+
+.delete-btn {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.delete-btn:hover {
+  color: #dc2626;
+}
+
+.edit-comment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.edit-comment-input {
+  padding: 0.75rem;
+  border: 1px solid #4B5563;
+  border-radius: 0.375rem;
+  width: 100%;
+  background-color: #212121;
+  color: white;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.save-btn {
+  padding: 0.5rem;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 0.375rem;
+}
+
+.save-btn:hover {
+  background-color: #dc2626;
+}
+
+.cancel-btn {
+  padding: 0.5rem;
+  background-color: #6B7280;
+  color: white;
+  border-radius: 0.375rem;
+}
+
+.cancel-btn:hover {
+  background-color: #4B5563;
+}
+
+@media (max-width:1055px) {
+    #content{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:885px) {
+    #content{
+        width: 70%;
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:885px) {
+    #content{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:500px) {
+    #content{
+        width: 55%;
+        font-size: 0.6rem;
+    }
+    #name-sec{
+        font-size: 0.8rem;
+    }
+    #delete-btn,#edit_btn{
+        font-size: 0.8rem;
+        
+    }
+    #btn{
+        align-items: center;
+  font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:417px) {
+    #content{
+        width: 45%;
+        font-size: 0.4rem;
+    }
+    #delete-btn,#edit_btn{
+        font-size: 0.8rem;
+        
+    }
+    #btn{
+        align-items: center;
+  font-size: 0.8rem;
+    }
+    
+}
