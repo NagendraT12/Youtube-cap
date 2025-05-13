@@ -1,3 +1,76 @@
+# YouTube Clone
+
+A full-stack YouTube clone built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+
+## Repository Link
+[GitHub Repository](https://github.com/NagendraT12/Youtube-cap)
+
+## Features
+- Video playback and streaming
+- User authentication
+- Comments system
+- Video categories and filtering
+- Responsive design
+- Dark/Light theme support
+
+## Tech Stack
+- Frontend: React.js, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- MongoDB
+- npm or yarn
+
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/NagendraT12/Youtube-cap.git
+```
+
+2. Install dependencies
+```bash
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+cd api
+npm install
+```
+
+3. Start the development server
+```bash
+# Start frontend
+npm run dev
+
+# Start backend (in api directory)
+npm start
+```
+
+## Project Structure
+```
+├── api/                 # Backend code
+│   ├── Controller/     # Route controllers
+│   ├── Model/         # Database models
+│   ├── Routes/        # API routes
+│   └── server.js      # Server entry point
+├── src/               # Frontend code
+│   ├── component/     # React components
+│   ├── utils/         # Utility functions
+│   └── assets/        # Static assets
+└── public/            # Public files
+```
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License.
+
 # 🎥 YouTube Clone
 
 <div align="center">
